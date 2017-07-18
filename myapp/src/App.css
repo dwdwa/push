@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}	
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.body{
+	width:100%;
+}
+/*头部样式*/
+.lheader{
+	height:130px;
+}
+.lheaderc{
+	width: 1200px;
+	height:130px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.lheadercl{
+	width: 228px;
+	height: 42px;
+  float: left;
+  margin-top:50px;
+  margin-left:4px;
+}
+.lheadercl>b{
+	line-height:42px;
+	font-size:32px;
+	color: #ff7700;
+}
+.lheadercl>b>span{
+	color:#cccccc;
+	font-size: 32px;
+}
+.lheadercr{
+	width: 240px;
+	height: 84px;
+	position: absolute;
+	top: 21px;
+	left: 851px;
+}
+.lspan{
+	width:240px;
+	height:21px;	
+}
+.lspan>span{
+  width: 96px;
+  height: 21px;
+	font-size:16px;
+	float: right;
+	color:rgb(51,51,51);
+}
+.lp{
+	width:240px;
+	height:46px;
+}
+.lp>p{
+	width: 206px;
+	height: 46px;
+	color:rgb(51,51,51);
+	font-size: 30px;
+	float: right;
+}
+/*导航样式*/
+.lnav{
+	height:50px;
+	background: rgb(43,43,43);
+}
+.lnanvc{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+}
+.lnanvc>ul{
+	width: 1200px;
+	height: 50px;
+}
+.lnanvc>ul>li{
+	width: 120px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.lnanvc>ul>li:nth-child(1){
+	margin-left:0px;
+	background: rgb(255,102,55);
+}
+.lnanvc>ul>li:hover{
+		background: rgb(255,102,55);
+}
+.lnanvc>ul>li>a{
+	width: 100px;
+	height: 21px;
+	line-height: 50px;
+	font-size:12px;
+	color:#FFFFFF;
+}
+/*banner部分*/
+.banner{
+	height: 600px;
+	background: wheat;
+ margin: 0 auto;
+}
+/*内容*/
+.lcontent{
+height:1076px;
+margin: 0 auto;
+}
+.matter{
+	width:1200px;
+	height:1076px;
+	margin: 0 auto;
+	background: ;
+}
+.headline{
+width:785px;
+height:46px;
+margin-top:81px ;
+margin: 0  81px auto;
+}
+
+.matter>img{
+	width: 1200px;
+}
+
+
+/*底部*/
+.lfooter{
+	height:399px;
+	background: rgb(40,40,40);
+}
+.lfooterc{
+	width:1200px;
+	height:379px;
+	margin: 0 auto;
+}
+.lfooterctop{
+	width:1200px;
+	height:134px;
+}
+/*二维码*/
+.lcode{
+	width:193px;
+	height:134px;
+	float: left;
+		margin-top:78px;
+		margin-left: 72px;
+}
+.lcode>p{
+	color:#FFFFFF;
+	font-size:16px;
+	margin-top: 10px;
+}
+/*微信*/
+.lwechant{
+	width:300px;
+	height:134px;
+	float: left;
+		margin-top:78px;
+		margin-left:106px;
+}
+.lwechant>p{
+	color:rgb(222,222,222);
+	font-size:20px;
+	line-height:28px;
+}
+/*电话*/
+.lcall{
+	width:300px;
+	height:134px;
+	float:left;
+	margin-top:78px;
+	margin-left:106px;
+}
+.lcall>p{
+	color:rgb(222,222,222);
+	font-size:20px;
+		line-height:28px;
+}
+/*条*/
+.lunderline{
+width:824px;
+height:1px;
+background: rgb(75,75,75);
+margin-top:107px;
+margin-left: 198px;
+}
+/*底部*/
+.lbottom{
+	width:1200px;
+	height:44px;
+}
+.lbottom>p{
+	width: 1200px;
+	height: 22px;	
+	color:#FFFFFF;
+	font-size:14px;
+	margin-top:44px;
+line-height: 22px;
+}
+.lbottom>a{
+		width: 1200px;
+	height: 22px;	
+	color:#FFFFFF;
+	font-size:14px;
+	margin-top:44px;
+line-height: 22px;
+}
